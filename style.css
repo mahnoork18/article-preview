@@ -91,7 +91,8 @@ body{
 }
 .social{
     background-color: var(--Desaturated-Dark-Blue);
-    display: inline-block;
+    display: flex;
+    flex-direction:row;
 
     width: 100%;
     justify-content: space-around;

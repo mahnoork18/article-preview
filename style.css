@@ -85,8 +85,10 @@ body{
 .icon{
     margin-top: 8px;
     width: 24px !important;
+        display: flex;
+    flex-direction:row;
     height: 24px !important;
-    background-color: var(--Light-Grayish-Blue);
+    background-color:var(--Desaturated-Dark-Blue);
     
 }
 .social{
@@ -108,9 +110,9 @@ letter-spacing: 4px;
 }
 .icons img{
     margin-top: 8px;
-    width: 30px !important;
+    width: 20px !important;
     color:var(--Very-Dark-Grayish-Blue);
-    height: 30px !important;
+    height: 20px !important;
       background-color:var(--Desaturated-Dark-Blue);
     border: none !important;
 }

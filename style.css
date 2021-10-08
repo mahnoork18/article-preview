@@ -100,6 +100,7 @@ body{
 }
 .social p{
     color: var(--Light-Grayish-Blue);
+    background-color:var(--Desaturated-Dark-Blue);
     font-weight: 400;
     font-size: 1rem;
     margin-top: 15px;
@@ -110,6 +111,7 @@ letter-spacing: 4px;
     width: 30px !important;
     color:var(--Very-Dark-Grayish-Blue);
     height: 30px !important;
+      background-color:var(--Desaturated-Dark-Blue);
     border: none !important;
 }
 .share{

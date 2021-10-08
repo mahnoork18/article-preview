@@ -44,7 +44,7 @@
   <div class="share-box">
   <img id="button" class="icon"src="images/icon-share.svg"  alt="icon-share">
   
-  <div class="social-active" style="display: none;">
+  <div class="social" style="display: none;">
     <p>SHARE</p>
     <img class="icons"src="images/icon-facebook.svg" alt="icon-facebook">
     <img class="icons"src="images/icon-pinterest.svg" alt="icon-pinterest">
@@ -63,7 +63,7 @@
   </div>
 
   <script>
-  /*var icon =document.getElementsByClassName("social")[0];// get the share-box first
+  var icon =document.getElementsByClassName("social")[0];// get the share-box first
   var btn = document.getElementById("button");// get the button
 btn.onclick = function myFunction(){ //call myfunction
   icon.style.display = "block"; //display it as a block element
@@ -71,12 +71,8 @@ btn.onclick = function myFunction(){ //call myfunction
 window.onclick = function(e) { // after share box appears call function to disappear
   if (e.target == icon) {  // 'e' stands for event(share box appears)
     icon.style.display = "none"; // allow it to disappear
-  }}*/
-    const share = documnet.querySelector('.share-box');
-    const shareActive = document.querySelector('.social-active');
-    share.addEventListner("click", () =>{
-      share.Active.classList.toggle("social-active");
-    });
+  }}
+
 
 </script>
 </body>
